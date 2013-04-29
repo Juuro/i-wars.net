@@ -69,10 +69,10 @@ function text_out(id)
         <div id="galerie" class="sign">pixlumination</div>
     </div>
     <div id="name">
-        <a href="mailto:webmaster@sebastian-engel.de"><img src="grfx/se002.png" alt="Sebastian Engel" class="img" /></a>
+    <a href="mailto:mail@sebastian-engel.de"><img src="grfx/se002.png" alt="Sebastian Engel" class="img" /></a>
     </div>
     <div id="email">
-        <a href="mailto:webmaster@sebastian-engel.de" name="E-Mail"><img src="grfx/mm.png" alt="E-Mail" class="img" /></a>
+        <a href="mailto:mail@sebastian-engel.de" name="E-Mail"><img src="grfx/mm.png" alt="E-Mail" class="img" /></a>
     </div>
     <div id="counter">
 		<p>
