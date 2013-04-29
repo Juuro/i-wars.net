@@ -1,0 +1,78 @@
+body,html{
+    background:url(grfx/fundal.jpg);
+    font-family:Myriad,Verdana,Geneva,Arial,helvetica,sans-serif;
+    height:100%;
+    margin:0;
+    padding:0;
+}
+
+td{
+    font-family:Myriad,Verdana,Geneva,Arial,helvetica,sans-serif;
+    font-weight:normal;
+}
+
+a{
+    font:20px Myriad,Verdana,Geneva,Arial,helvetica,sans-serif;
+    color:#CC0000;
+    text-decoration:overline;
+}
+
+a:hover{
+    color:#FFFFFF;
+    text-decoration:none;
+}
+
+#wrap {    
+    width: 809px;
+    margin: auto;
+    margin-top: 30px;
+    border: 0px #000000 solid;
+}
+
+.sign{
+    display:none;
+}
+
+.field {    
+    width: 200px;
+    float: left;
+}
+
+#rand_r {
+    width: 9px;
+    float: left;
+}
+
+#rand_u {
+    width: 809px;
+    float: left;
+}
+
+#menu {
+    width: 809px;
+    height: 50px;
+    padding-left: 50px;
+    color: #CC0000;
+    font-size: 20px;
+    float: left;
+}
+
+#counter {
+    width: 809px;
+    float: left;
+    text-align: center;
+}
+
+#name {
+    width: 450px;
+    float: left;
+}
+
+#email {
+    width: 359px;
+    float: left;
+}
+
+.img {
+    border: 0;
+}
