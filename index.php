@@ -1,42 +1,43 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
 <head>
-<script type="text/javascript">
-<!-- 
-intro_1=new Image();intro_1.src="grfx/intro_1.jpg";
-intro_1_ro=new Image();intro_1_ro.src="grfx/intro_1_ro.jpg";
- 
-intro_2=new Image();intro_2.src="grfx/intro_2.jpg";
-intro_2_ro=new Image();intro_2_ro.src="grfx/intro_2_ro.jpg";
- 
-intro_3=new Image();intro_3.src="grfx/intro_3.jpg";
-intro_3_ro=new Image();intro_3_ro.src="grfx/intro_3_ro.jpg";
- 
-intro_4=new Image();intro_4.src="grfx/intro_4.jpg";
-intro_4_ro=new Image();intro_4_ro.src="grfx/intro_4_ro.jpg";
-
-function rein1(img,ref) { document.images[img].src = ref; } 
-function raus1(img,ref) { document.images[img].src = ref; }
-
-function text_in(id)
-{
-	if (document.getElementById) {
-		document.getElementById(id).style.display="block";
-	}
-}
-
-function text_out(id) 
-{
-	if (document.getElementById) {
-		document.getElementById(id).style.display="none";
-	}
-}
-
-//-->
-</script>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>i-wars.net</title>
-<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+    <meta charset="UTF-8">
+        
+    <script type="text/javascript">
+    <!-- 
+    intro_1=new Image();intro_1.src="grfx/intro_1.jpg";
+    intro_1_ro=new Image();intro_1_ro.src="grfx/intro_1_ro.jpg";
+     
+    intro_2=new Image();intro_2.src="grfx/intro_2.jpg";
+    intro_2_ro=new Image();intro_2_ro.src="grfx/intro_2_ro.jpg";
+     
+    intro_3=new Image();intro_3.src="grfx/intro_3.jpg";
+    intro_3_ro=new Image();intro_3_ro.src="grfx/intro_3_ro.jpg";
+     
+    intro_4=new Image();intro_4.src="grfx/intro_4.jpg";
+    intro_4_ro=new Image();intro_4_ro.src="grfx/intro_4_ro.jpg";
+    
+    function rein1(img,ref) { document.images[img].src = ref; } 
+    function raus1(img,ref) { document.images[img].src = ref; }
+    
+    function text_in(id)
+    {
+    	if (document.getElementById) {
+    		document.getElementById(id).style.display="block";
+    	}
+    }
+    
+    function text_out(id) 
+    {
+    	if (document.getElementById) {
+    		document.getElementById(id).style.display="none";
+    	}
+    }
+    
+    //-->
+    </script>
+    
+    <title>i-wars.net</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 </head>
 
 <body>
@@ -44,24 +45,21 @@ function text_out(id)
 
 
 <div id="wrap">
-    <div class="field">
-        <img src="grfx/intro_1.jpg" usemap="#Map" id="platzhalter1" alt="Forum" class="img" />
+    <div class="plate">
+        <div class="field">
+            <img src="grfx/intro_1.jpg" usemap="#Map" id="platzhalter1" alt="Forum" class="img" />
+        </div>
+        <div class="field">
+            <img src="grfx/intro_2.jpg" usemap="#Map2" id="platzhalter2" alt="Weblog" class="img" />
+        </div>
+        <div class="field">
+            <img src="grfx/intro_3.jpg" usemap="#Map3" id="platzhalter3" alt="Chat" class="img" />
+        </div>
+        <div class="field">
+            <img src="grfx/intro_4.jpg" usemap="#Map4" id="platzhalter4" alt="Galerie" class="img" />
+        </div>
     </div>
-    <div class="field">
-        <img src="grfx/intro_2.jpg" width="200px" height="300px" usemap="#Map2" id="platzhalter2" alt="Weblog" class="img" />
-    </div>
-    <div class="field">
-        <img src="grfx/intro_3.jpg" width="200px" height="300px" usemap="#Map3" id="platzhalter3" alt="Chat" class="img" />
-    </div>
-    <div class="field">
-        <img src="grfx/intro_4.jpg" width="200px" height="300px" usemap="#Map4" id="platzhalter4" alt="Galerie" class="img" />
-    </div>
-    <div id="rand_r">
-        <img src="grfx/rand_r.png" width="9px" height="300px" alt="Rand" class="img" />
-    </div>
-    <div id="rand_u">
-        <!-- <img src="grfx/rand_u.png" alt="" /> -->
-    </div>
+    
     <div id="menu">
         <div id="forum" class="sign">communication</div>
         <div id="weblog" class="sign">illumination</div>
@@ -69,16 +67,16 @@ function text_out(id)
         <div id="galerie" class="sign">pixlumination</div>
     </div>
     <div id="name">
-    <a href="mailto:mail@sebastian-engel.de"><img src="grfx/se002.png" alt="Sebastian Engel" class="img" /></a>
+    <a href="mailto:mail@sebastian-engel.de"><img src="grfx/se.png" alt="Sebastian Engel" class="img"></a>
     </div>
     <div id="email">
-        <a href="mailto:mail@sebastian-engel.de" name="E-Mail"><img src="grfx/mm.png" alt="E-Mail" class="img" /></a>
+        <a href="mailto:mail@sebastian-engel.de"><img src="grfx/mm.png" alt="E-Mail" class="img"></a>
     </div>
-    <div id="counter">
-		<p>
-		  <a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" class="img" /></a>
-        </p>
+    
+    <div class="html5">
+        <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fi-wars.net%2F"><img src="grfx/HTML5_Logo_64.png" alt="HTML5"></a>
     </div>
+    
 </div>
 
 
