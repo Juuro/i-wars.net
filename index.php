@@ -63,7 +63,7 @@
     <div id="menu">
         <div id="forum" class="sign">communication</div>
         <div id="weblog" class="sign">illumination</div>
-    	<div id="chat" class="sign">selbstreferentiell</div>
+    	<div id="twitter" class="sign">twitter</div>
         <div id="galerie" class="sign">pixlumination</div>
     </div>
     <div id="name">
@@ -83,9 +83,9 @@
 <div style="display: none;">
 <map name="Map" id="Map"><area shape="circle" coords="132,151,33" href="http://www.i-wars.net/forum/" alt="Forum" onmouseover="text_in('forum');rein1('platzhalter1',intro_1_ro.src);" onmouseout="text_out('forum');raus1('platzhalter1',intro_1.src);" />
 </map>
-<map name="Map2" id="Map2"><area shape="circle" coords="110,151,36" href="http://www.sebastian-engel.de/" alt="Weblog" onmouseover="rein1('platzhalter2',intro_2_ro.src);text_in('weblog');" onmouseout="raus1('platzhalter2',intro_2.src);text_out('weblog');" />
+<map name="Map2" id="Map2"><area shape="circle" coords="110,151,36" href="http://blog.twoseb.de" alt="Weblog" onmouseover="rein1('platzhalter2',intro_2_ro.src);text_in('weblog');" onmouseout="raus1('platzhalter2',intro_2.src);text_out('weblog');" />
 </map>
-<map name="Map3" id="Map3"><area shape="circle" coords="84,150,37" href="" alt="Chat" onmouseover="rein1('platzhalter3',intro_3_ro.src);text_in('chat');" onmouseout="raus1('platzhalter3',intro_3.src);text_out('chat');" />
+<map name="Map3" id="Map3"><area shape="circle" coords="84,150,37" href="https://twitter.com/Juuro" alt="Twitter" onmouseover="rein1('platzhalter3',intro_3_ro.src);text_in('twitter');" onmouseout="raus1('platzhalter3',intro_3.src);text_out('twitter');" />
 </map>
 <map name="Map4" id="Map4"><area shape="circle" coords="69,154,38" href="http://juuro.deviantart.com/" alt="Galerie" onmouseover="rein1('platzhalter4',intro_4_ro.src);text_in('galerie');" onmouseout="raus1('platzhalter4',intro_4.src);text_out('galerie');" />
 </map>
